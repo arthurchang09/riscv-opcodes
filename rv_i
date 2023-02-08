@@ -1,5 +1,7 @@
 # rv_i
 
+layconf imm20 imm12lo 6..2=0x02 1..0=3
+tileconf imm20 imm12lo 6..2=0x0A 1..0=3
 lui     rd imm20 6..2=0x0D 1..0=3
 auipc   rd imm20 6..2=0x05 1..0=3
 jal     rd jimm20                          6..2=0x1b 1..0=3
